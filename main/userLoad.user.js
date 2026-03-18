@@ -1,7 +1,7 @@
 // ==UserScript==
-// @name 小酥的动作拓展(fix fork)
+// @name 小酥的动作拓展
 // @namespace https://www.bondageprojects.com/
-// @version 0.0.2
+// @version 0.0.1
 // @description 小酥的动作拓展 一些额外的动作
 // @author XiaoSu
 // @match https://bondageprojects.elementfx.com/*
@@ -17,6 +17,6 @@
     var script = document.createElement("script");
     script.langauge = "JavaScript";
     script.setAttribute("crossorigin", "anonymous");
-    script.src = `https://thisaueser.github.io/XiaoSuActivity/main/XSActivity.js?${Date.now()}`;
+    script.src = `https://iceriny.github.io/XiaoSuActivity/main/XSActivity.js?${Date.now()}`;
     document.head.appendChild(script);
 })();
