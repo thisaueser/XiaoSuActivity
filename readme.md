@@ -1,5 +1,4 @@
-# 动作拓展以及其他易用性功能(fork)
-修复了无法加载的问题  
+# 动作拓展以及其他易用性功能
 为 [Bondage Club](https://www.bondageprojects.elementfx.com/)制作的Mod。
 
 - 详细功能查看以下看板:
@@ -16,8 +15,8 @@
 **测试版非必要请勿使用，编程水平有限，边学边写。测试版仅作为自己的实验室，出现bug的概率相当高!**
 
 - Tampermonkey
-  - 正式版: https://thisaueser.github.io/XiaoSuActivity/main/userLoad.user.js
-  - 测试版: https://thisaueser.github.io/XiaoSuActivity/dev/userLoad_dev.user.js
+  - 正式版: https://iceriny.github.io/XiaoSuActivity/main/userLoad.user.js
+  - 测试版: https://iceriny.github.io/XiaoSuActivity/dev/userLoad_dev.user.js
 - 书签:
 ```code
 javascript:(()=>{fetch('https://iceriny.github.io/XiaoSuActivity/main/userLoad.user.js').then(r=>r.text()).then(r=>eval(r));})();
